@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Menú</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Menú</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- Botones para navegar a las secciones de productos y clientes -->
+  <ion-button expand="block" color="primary" (click)="productos()">Registro Productos</ion-button>
+  <ion-button expand="block" color="primary" (click)="clientes()">Registro Clientes</ion-button>
+</ion-content>
